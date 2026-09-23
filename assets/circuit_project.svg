@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cir-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Blueprint Background -->
+  <rect width="600" height="360" fill="url(#cir-bg)" rx="16"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="#334155" stroke-width="0.8" opacity="0.6">
+    <line x1="50" y1="0" x2="50" y2="360"/>
+    <line x1="100" y1="0" x2="100" y2="360"/>
+    <line x1="150" y1="0" x2="150" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="250" y1="0" x2="250" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="350" y1="0" x2="350" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="450" y1="0" x2="450" y2="360"/>
+    <line x1="500" y1="0" x2="500" y2="360"/>
+    <line x1="550" y1="0" x2="550" y2="360"/>
+    
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="180" x2="600" y2="180"/>
+    <line x1="0" y1="240" x2="600" y2="240"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+  </g>
+
+  <!-- Title overlay -->
+  <text x="50" y="45" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#38BDF8">EED-101 • ELECTRIC CIRCUIT EXPERIMENT</text>
+  <text x="50" y="65" font-family="'Prompt', sans-serif" font-size="11" fill="#94A3B8">การวิเคราะห์และวัดค่าวงจรความต้านทานอนุกรม-ขนาน</text>
+
+  <!-- Circuit Schematic -->
+  <g stroke="#38BDF8" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- DC Source -->
+    <path d="M100,180 L140,180"/>
+    <line x1="140" y1="160" x2="140" y2="200" stroke-width="3.5"/>
+    <line x1="148" y1="168" x2="148" y2="192" stroke-width="2"/>
+    <line x1="156" y1="160" x2="156" y2="200" stroke-width="3.5"/>
+    <line x1="164" y1="168" x2="164" y2="192" stroke-width="2"/>
+    <path d="M164,180 L220,180"/>
+
+    <!-- Up to R1 -->
+    <path d="M220,180 L220,120 L270,120"/>
+    <!-- Resistor R1 (zigzag) -->
+    <path d="M270,120 L275,110 L285,130 L295,110 L305,130 L315,110 L325,130 L330,120 L380,120"/>
+
+    <!-- Down to R2 -->
+    <path d="M220,180 L220,240 L270,240"/>
+    <!-- Resistor R2 (zigzag) -->
+    <path d="M270,240 L275,230 L285,250 L295,230 L305,250 L315,230 L325,250 L330,240 L380,240"/>
+
+    <!-- Combine at Node B -->
+    <path d="M380,120 L380,180 L440,180"/>
+    <path d="M380,240 L380,180"/>
+
+    <!-- Multimeter / Voltmeter Symbol -->
+    <circle cx="475" cy="180" r="24" stroke="#F59E0B" stroke-width="2" fill="#1E293B"/>
+    <path d="M500,180 L540,180 L540,300 L100,300 L100,180"/>
+  </g>
+
+  <!-- Labels -->
+  <text x="475" y="186" font-family="'Prompt', sans-serif" font-size="16" font-weight="bold" fill="#F59E0B" text-anchor="middle">V</text>
+  <text x="300" y="100" font-family="'Prompt', sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">R1 = 1 kΩ</text>
+  <text x="300" y="270" font-family="'Prompt', sans-serif" font-size="12" font-weight="bold" fill="#F8FAFC" text-anchor="middle">R2 = 2.2 kΩ</text>
+  <text x="152" y="150" font-family="'Prompt', sans-serif" font-size="12" font-weight="bold" fill="#38BDF8" text-anchor="middle">Vs = 12V</text>
+
+  <!-- Simulation Results Box -->
+  <g transform="translate(380, 20)">
+    <rect width="180" height="60" fill="#0F172A" stroke="#334155" rx="8"/>
+    <text x="15" y="25" font-family="'Prompt', sans-serif" font-size="11" fill="#94A3B8">V_measured: <tspan fill="#10B981" font-weight="bold">11.98 V</tspan></text>
+    <text x="15" y="45" font-family="'Prompt', sans-serif" font-size="11" fill="#94A3B8">Error: <tspan fill="#10B981" font-weight="bold">&lt; 0.2%</tspan></text>
+  </g>
+</svg>

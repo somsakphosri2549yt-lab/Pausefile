@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F3EB" />
+      <stop offset="100%" stop-color="#EBE3D5" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEEE6" />
+      <stop offset="100%" stop-color="#F7DFD3" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A322D" />
+      <stop offset="100%" stop-color="#241E1A" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0ECE1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle with Soft Zen Tone -->
+  <rect width="400" height="400" fill="url(#bg-grad)" rx="200"/>
+  
+  <!-- Subtle Decorative Geometric Ring -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#DCD2C0" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- Back Hair -->
+  <path d="M125,180 C110,230 110,310 135,360 C155,365 245,365 265,360 C290,310 290,230 275,180 Z" fill="url(#hair)"/>
+
+  <!-- Neck & Shoulders (University Uniform) -->
+  <path d="M175,250 L225,250 L235,310 L165,310 Z" fill="url(#skin)"/>
+  
+  <!-- Shoulders & Blouse -->
+  <path d="M110,360 C110,310 160,285 200,285 C240,285 290,310 290,360 Z" fill="url(#shirt)"/>
+  
+  <!-- Collar & Thai Student Pin -->
+  <path d="M170,285 L200,320 L160,335 L145,295 Z" fill="#FFFFFF" stroke="#E2DAC9" stroke-width="1.5"/>
+  <path d="M230,285 L200,320 L240,335 L255,295 Z" fill="#FFFFFF" stroke="#E2DAC9" stroke-width="1.5"/>
+  <!-- University Pin (Gold) -->
+  <circle cx="225" cy="305" r="4.5" fill="#D4AF37"/>
+
+  <!-- Head / Face -->
+  <path d="M145,170 C145,115 255,115 255,170 C255,230 225,265 200,265 C175,265 145,230 145,170 Z" fill="url(#skin)"/>
+
+  <!-- Ears -->
+  <ellipse cx="143" cy="180" rx="7" ry="12" fill="url(#skin)"/>
+  <ellipse cx="257" cy="180" rx="7" ry="12" fill="url(#skin)"/>
+
+  <!-- Front Hair & Bangs (Neat & Elegant) -->
+  <path d="M142,165 C145,110 255,110 258,165 C250,150 230,135 200,135 C170,135 150,150 142,165 Z" fill="url(#hair)"/>
+  <path d="M145,150 C160,135 185,135 205,145 C190,140 170,142 155,152 Z" fill="url(#hair)"/>
+  <path d="M255,150 C240,135 215,135 195,145 C210,140 230,142 245,152 Z" fill="url(#hair)"/>
+
+  <!-- Soft Eyebrows -->
+  <path d="M165,168 C173,164 182,165 188,169" stroke="#3A322D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M235,168 C227,164 218,165 212,169" stroke="#3A322D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes (Calm, Focused, Friendly) -->
+  <path d="M166,180 C172,175 182,175 188,180" stroke="#241E1A" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+  <circle cx="177" cy="180" r="3" fill="#241E1A"/>
+  <path d="M234,180 C228,175 218,175 212,180" stroke="#241E1A" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+  <circle cx="223" cy="180" r="3" fill="#241E1A"/>
+
+  <!-- Gentle Blush -->
+  <ellipse cx="160" cy="195" rx="8" ry="4" fill="#F4A79D" opacity="0.45"/>
+  <ellipse cx="240" cy="195" rx="8" ry="4" fill="#F4A79D" opacity="0.45"/>
+
+  <!-- Nose -->
+  <path d="M200,183 L198,197 L204,197" stroke="#D9B7A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Gentle Warm Smile -->
+  <path d="M188,215 C194,222 206,222 212,215" stroke="#C46B6B" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Minimalist Monogram Badge in Corner -->
+  <circle cx="290" cy="110" r="22" fill="#8C5E3C" />
+  <text x="290" y="116" font-family="'Prompt', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ชมพู่</text>
+</svg>

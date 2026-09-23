@@ -1,0 +1,9 @@
+# Dependencies and external repos
+impeccable-main/
+
+# OS and Editor files
+desktop.ini
+Thumbs.db
+.DS_Store
+*.log
+*.tmp

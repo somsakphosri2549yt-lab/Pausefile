@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cert-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF6" />
+      <stop offset="100%" stop-color="#F2EBE0" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C360" />
+      <stop offset="50%" stop-color="#C99824" />
+      <stop offset="100%" stop-color="#9A6F0E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Certificate Border -->
+  <rect width="600" height="360" fill="url(#cert-bg)" rx="16"/>
+  <rect x="20" y="20" width="560" height="320" fill="none" stroke="#D4AF37" stroke-width="2" rx="12"/>
+  <rect x="28" y="28" width="544" height="304" fill="none" stroke="#8C5E3C" stroke-width="0.8" rx="8"/>
+
+  <!-- Gold Seal -->
+  <circle cx="300" cy="115" r="40" fill="url(#gold-grad)"/>
+  <circle cx="300" cy="115" r="34" fill="#FCFAF6"/>
+  <path d="M300,90 L304,102 L316,102 L306,110 L310,122 L300,114 L290,122 L294,110 L284,102 L296,102 Z" fill="url(#gold-grad)"/>
+
+  <!-- Ribbons -->
+  <path d="M288,145 L280,185 L292,175 L304,185 L296,145 Z" fill="#9A6F0E"/>
+  <path d="M304,145 L312,185 L300,175 L288,185 L296,145 Z" fill="#C99824"/>
+
+  <!-- Typography -->
+  <text x="300" y="205" font-family="'Prompt', sans-serif" font-size="14" font-weight="bold" letter-spacing="3" fill="#8C5E3C" text-anchor="middle">CERTIFICATE OF ACHIEVEMENT</text>
+  <text x="300" y="235" font-family="'Prompt', sans-serif" font-size="18" font-weight="bold" fill="#2C2825" text-anchor="middle">เกียรติบัตรการอบรมมาตรฐานความปลอดภัย</text>
+  <text x="300" y="260" font-family="'Prompt', sans-serif" font-size="12" fill="#6B655E" text-anchor="middle">ในห้องปฏิบัติการทางวิศวกรรมไฟฟ้าและเครื่องมือวัด</text>
+  <text x="300" y="295" font-family="'Prompt', sans-serif" font-size="11" font-weight="semibold" fill="#8C5E3C" text-anchor="middle">มอบให้แก่: นางสาวกัญชลิกา สายสุด • มทร.อีสาน ขอนแก่น</text>
+</svg>
