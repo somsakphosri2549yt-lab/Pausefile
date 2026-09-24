@@ -100,7 +100,7 @@ function setTheme(themeKey) {
 
   const labelEl = document.getElementById("current-theme-label");
   if (labelEl) {
-    labelEl.textContent = labels[themeKey] || "Warm Zen";
+    labelEl.textContent = labels[themeKey] || "Rose ชมพู่";
   }
 
   // Save to settings

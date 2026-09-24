@@ -6,8 +6,41 @@
 /* --------------------------------------------------------------------------
    Theme Variables
    -------------------------------------------------------------------------- */
-:root {
-  /* Default: Warm Zen (Inspired by SUIREN & Acornnest) */
+:root,
+[data-theme="rose"] {
+  /* Default: Soft Rose & Warm Cream (Chompoo Edition) */
+  --bg-primary: #FAF6F6;
+  --bg-secondary: #F4ECEC;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FDF9F9;
+  --bg-accent: #EFE0E2;
+  --bg-badge: #F6E9EB;
+
+  --text-primary: #2B2124;
+  --text-secondary: #6E5C62;
+  --text-muted: #A38F95;
+  --text-inverse: #FAF6F6;
+
+  --border-light: #EDE0E3;
+  --border-medium: #DEC9CD;
+  --border-focus: #BE5B6C;
+
+  --accent-color: #BE5B6C;
+  --accent-hover: #A34857;
+  --accent-light: #FBEFF1;
+  --accent-contrast: #FFFFFF;
+
+  --card-shadow: 0 4px 20px -2px rgba(43, 33, 36, 0.05);
+  --card-shadow-hover: 0 12px 28px -4px rgba(43, 33, 36, 0.09);
+  --modal-backdrop: rgba(30, 20, 23, 0.65);
+  --font-heading: 'Prompt', 'Noto Serif Thai', serif;
+  --font-body: 'Prompt', 'Sarabun', sans-serif;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+}
+
+[data-theme="warm-zen"] {
+  /* Warm Zen (Inspired by SUIREN & Acornnest) */
   --bg-primary: #FAF7F2;
   --bg-secondary: #F3EFE6;
   --bg-card: #FFFFFF;
@@ -32,10 +65,6 @@
   --card-shadow: 0 4px 20px -2px rgba(44, 40, 37, 0.05), 0 2px 6px -1px rgba(44, 40, 37, 0.03);
   --card-shadow-hover: 0 12px 30px -4px rgba(44, 40, 37, 0.08), 0 4px 10px -2px rgba(44, 40, 37, 0.04);
   --modal-backdrop: rgba(30, 27, 24, 0.6);
-  --font-heading: 'Prompt', 'Noto Serif Thai', serif;
-  --font-body: 'Prompt', 'Sarabun', sans-serif;
-  --radius-lg: 1rem;
-  --radius-xl: 1.25rem;
 }
 
 [data-theme="academic"] {
@@ -94,33 +123,6 @@
   --modal-backdrop: rgba(5, 10, 8, 0.85);
 }
 
-[data-theme="rose"] {
-  /* Soft Rose & Warm Cream (Chompoo Edition) */
-  --bg-primary: #FAF6F6;
-  --bg-secondary: #F4ECEC;
-  --bg-card: #FFFFFF;
-  --bg-card-hover: #FDF9F9;
-  --bg-accent: #EFE0E2;
-  --bg-badge: #F6E9EB;
-
-  --text-primary: #2B2124;
-  --text-secondary: #6E5C62;
-  --text-muted: #A38F95;
-  --text-inverse: #FAF6F6;
-
-  --border-light: #EDE0E3;
-  --border-medium: #DEC9CD;
-  --border-focus: #BE5B6C;
-
-  --accent-color: #BE5B6C;
-  --accent-hover: #A34857;
-  --accent-light: #FBEFF1;
-  --accent-contrast: #FFFFFF;
-
-  --card-shadow: 0 4px 20px -2px rgba(43, 33, 36, 0.05);
-  --card-shadow-hover: 0 12px 28px -4px rgba(43, 33, 36, 0.09);
-  --modal-backdrop: rgba(30, 20, 23, 0.65);
-}
 
 [data-theme="dark"] {
   /* Modern Dark Minimalist */

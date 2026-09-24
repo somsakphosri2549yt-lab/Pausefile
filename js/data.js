@@ -193,7 +193,7 @@ const DEFAULT_PORTFOLIO_DATA = {
   ],
 
   settings: {
-    activeTheme: "warm-zen", // 'warm-zen', 'academic', 'forest', 'rose', 'dark'
+    activeTheme: "rose", // 'warm-zen', 'academic', 'forest', 'rose', 'dark'
     activeFont: "Prompt",
     enableAnimations: true,
     cardRounded: "rounded-2xl",
