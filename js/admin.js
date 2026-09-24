@@ -1,6 +1,6 @@
 /**
  * Admin CMS & Visual Editor for Kanchalika Saisud Portfolio
- * Handles Secret Authentication (kanchalika / 250820), Live In-Browser Editing,
+ * Handles Secret Authentication, Live In-Browser Editing,
  * CRUD Operations for all sections, and Universal File & Font Uploads.
  */
 
